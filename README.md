@@ -1,5 +1,5 @@
 # IndicIR
-This repo includes the model to translate english datasets to malayalam
+This repo is the pipeline to translate english Scifact dataset to malayalam
 
 # IndicTrans2 Dataset Translator
 
