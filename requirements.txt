@@ -1,0 +1,5 @@
+torch
+transformers
+tqdm
+sentencepiece
+git+https://github.com/VarunGumma/IndicTransToolkit.git

@@ -1,0 +1,17 @@
+name: translate-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.1.0
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8  # Remove or adjust if running on CPU only
+  - tqdm
+  - sentencepiece
+  - pip:
+      - transformers
+      - git+https://github.com/VarunGumma/IndicTransToolkit.git
